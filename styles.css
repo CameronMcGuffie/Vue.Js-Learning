@@ -1,0 +1,236 @@
+body {
+    font-family: Calibri;
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    font-size: 20pt;
+    size: 67pt;
+    padding: 5pt;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #9F3857;
+}
+
+.sitename {
+    color: #fff;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.ribbon {
+    background-color: #E4AABB;
+    height: 44pt;
+    flex-grow: 1;
+    border-top: 3pt solid #9F3857;
+}
+
+.nav {
+    background-color: #B85D79;
+    min-width: 800pt;
+    height: 45pt;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 2pt 0pt 1pt #ccc;
+}
+
+.nav_item {
+    color: #fff;
+    text-shadow: 2px 0px 3px #9F3857;
+    border-right: 1px solid #E4AABB;
+    cursor: pointer;
+    height: 100%;
+    padding: 9pt 12pt 5pt 12pt;
+    font-size: 20pt;
+    box-sizing: border-box;
+}
+
+.nav_item:hover {
+    background-color: #9F3857;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: rgb(236, 199, 210);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(236, 199, 210, 1) 100%);
+    flex-grow: 1;
+}
+
+.content {
+    width: 800pt;
+    height: 100%;
+    background-color: #fff;
+    padding: 15pt;
+    font-size: 15pt;
+    box-sizing: border-box;
+    box-shadow: 1pt 1pt 3pt #ccc;
+}
+
+.content a {
+    color: #B85D79;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: #E4AABB;
+}
+
+.content h1 {
+    color: #662539;
+    margin: 0pt;
+}
+
+.content h2 {
+    color: #662539;
+    margin: 0pt;
+    margin-bottom: 5pt;
+}
+
+.create_box {
+    width: 400pt;
+    display: flex;
+    flex-direction: column;
+}
+
+.create_row {
+    width: 400pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.create_header {
+    color: #662539;
+    padding: 5pt;
+    font-weight: bold;
+    text-align: right;
+    flex-basis: 100%;
+}
+
+.create_input {
+    padding: 5pt;
+}
+
+.create_input input[type="submit"] {
+    margin-left: -50pt;
+    padding-right: 5pt;
+    height: 30pt;
+    width: 50pt;
+    border: 1pt solid rgb(236, 199, 210);
+    background: rgb(236, 199, 210);
+    background: linear-gradient(180deg, rgba(159, 56, 87, 1) 0%, rgba(184, 93, 121, 1) 100%);
+    color: #fff;
+    font-size: 16pt;
+}
+
+.create_input input[type="submit"]:hover {
+    border: 1px solid rgb(236, 199, 210);
+    background: rgb(236, 199, 210);
+    background: linear-gradient(180deg, rgba(159, 56, 87, 1) 0%, rgba(102, 37, 57, 1) 100%);
+    color: #fff;
+    cursor: pointer;
+}
+
+.create_input input[type=text], select, option {
+    border-radius: 5pt;
+    color: #662539;
+    font-size: 16pt;
+    font-family: calibri;
+    height: 30pt;
+    width: 250pt;
+    padding: 5pt;
+    border: 1px solid rgb(236, 199, 210);
+    background: rgb(236, 199, 210);
+    background: linear-gradient(180deg, rgba(236, 199, 210, 0.4) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.create_input input[type=text]:focus, select:focus {
+    border: 1px solid #662539;
+    background: rgba(236, 199, 210, 0.3);
+    outline: none;
+}
+
+/* I cannot for the life of me get this to work, it's a task for tomorrow I guess */
+.create_input select option:checked, select option:hover, select option:focus {
+    border: 1px solid #662539;
+    background: rgba(236, 199, 210, 0.3);
+    outline: none;
+}
+
+.create_add {
+    width: 100%;
+    text-align: right;
+    padding-right: 5pt;
+    box-sizing: border-box;
+    color: #662539;
+}
+
+.create_add:hover {
+    color: #B85D79;
+    cursor: pointer;
+}
+
+.create_row button {
+    border: 1px solid rgb(236, 199, 210);
+    background: rgb(236, 199, 210);
+    background: linear-gradient(180deg, rgba(159, 56, 87, 1) 0%, rgba(184, 93, 121, 1) 100%);
+    color: #fff;
+    padding: 5pt;
+    margin-right: 5pt;
+    font-size: 16pt;
+}
+
+.create_row button:hover {
+    border: 1px solid rgb(236, 199, 210);
+    background: rgb(236, 199, 210);
+    background: linear-gradient(180deg, rgba(159, 56, 87, 1) 0%, rgba(102, 37, 57, 1) 100%);
+    color: #fff;
+    padding: 5pt;
+    margin-right: 5pt;
+    font-size: 16pt;
+    cursor: pointer;
+}
+
+.loading {
+    display: flex;
+    padding: 15pt;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loading_text {
+    padding-top: 15pt;
+}
+
+/* Thanks to https://www.w3schools.com/howto/howto_css_loader.asp */
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #B85D79; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
