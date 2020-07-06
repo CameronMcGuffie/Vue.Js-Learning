@@ -7,4 +7,6 @@ I am a master of Google/reference guides and a <b>quick learner</b>, I can work 
 
 By the way, I'll probably turn this into a real app one day. It needs alot of work but please tell me what you think!<br /><br />
 
-One last note, I haven't optimized this for Safari or mobile.. oops! You can see me doing this over at <a href="https://cameronmcguffie.com" target="_blank">cameronmcguffie.com</a>
+One last note, I haven't optimized this for Safari or mobile.. oops! You can see me doing this over at <a href="https://cameronmcguffie.com" target="_blank">cameronmcguffie.com</a><br /><br />
+
+P.S. I wrote this from 9PM - 11:30PM on the 6/7/20 so it is pretty incomplete :) I plan on updating this more over the coming days. The design is from scratch by me, the HTML and CSS too.

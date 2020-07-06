@@ -4,7 +4,7 @@
 ?>
 <html>
     <head>
-        <title>Study Helper by Cameron McGuffie</title>
+        <title>StudyHelper by Cameron McGuffie</title>
         <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" integrity="sha512-VZ6m0F78+yo3sbu48gElK4irv2dzPoep8oo9LEjxviigcnnnNvnTOJRSrIhuFk68FMLOpiNz+T77nNY89rnWDg==" crossorigin="anonymous"></script>
         <link href="/styles.css?t=<?php echo time(); /*Bypass the trusty ol Cloudflare cache*/ ?>" rel="stylesheet" />

@@ -41,7 +41,6 @@ var createPage= new Vue({
 
             axios.post('/save.php',{ questions: this.questionList, answers: this.multiAnswers })
             .then(response => {
-                alert("hi");
                 if(response.status == 200) {
                     this.saveSuccess = true;
                     this.loadingText = "Your test was saved.";
